@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #eee;
+}
+.mx-auto {
+    margin-right: unset !important;
+    
+}
+.bg-light{
+    background-color: #fff !important;
+
+}
+.carousel-item img{
+    width: 100%;height: 100%;object-fit: cover;
+}
+#section-title{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 790;
+    font-family: 'Courier New', Courier, monospace;
+}
+#section-title span{
+    border-bottom: 4px dashed rgb(238, 11, 11);
+}
+.card{
+   width: 16.1rem !important;
+}
+.card-header{
+    width: 16rem !important;
+    height: 15rem !important;
+}
+.card-header img,#large-img img,#gallery img{
+    width: 100%;height:100%;object-fit: fill;
+}
+.card-header{
+    padding: 0 !important;
+}
+#large-img{
+    width: 13rem;
+    height: 13rem;
+}
+#large-img img{
+    border-radius: 5px;
+}
+#gallery{
+    display: flex;
+}
+#gallery div{
+    width: 50px;
+    height: 40px;
+    margin: 4px;
+} 
+#gallery div img{
+    transition: transform 1s;
+}
+#gallery div img:hover{
+    width: 12rem;
+    height: 12rem;
+    transform: translateY(-50%);
+}
+img{
+    cursor: pointer;
+}
+.card-header img{
+    transition: transform 1s;
+}
+.card-header img:hover{
+    transform: scale(1.1);
+}
+#About{
+    background:url(cake3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Contact{
+    background:url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Contact .col-6{
+    background-color:rgb(219, 28, 11);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #222;
+}
+@media (min-width:992px)
+{
+    
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.carousel-inner,.carousel-item{
+    height: 80vh;
+  
+}
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #eee;
+}
+.mx-auto {
+    margin-right: unset !important;
+    
+}
+.bg-light{
+    background-color: #fff !important;
+
+}
+@media (min-width:768px)
+{
+.carousel-inner,.carousel-item{
+    height: 70vh;
+  
+}
+}
+@media (max-width:767px)
+{
+.carousel-inner,.carousel-item{
+    height: 55vh;
+  
+}
+#About .col-8{
+    width: 90% !important;
+}
+#Contact .col-6{
+    width: 90% !important;
+}
+}
